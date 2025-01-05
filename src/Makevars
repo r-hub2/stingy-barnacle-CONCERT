@@ -1,0 +1,12 @@
+CC = gcc
+CXX = g++
+CXX11 = g++
+CXX14 = g++
+CXX17 = g++
+CXX20 = g++
+FC = gfortran
+F77 = gfortran
+
+PKG_CPPFLAGS = -I${R_HOME}/include
+PKG_LIBS = $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS)
+SHLIB_OPENMP_CXXFLAGS = -fopenmp

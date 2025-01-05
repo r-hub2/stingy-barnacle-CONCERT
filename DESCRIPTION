@@ -1,0 +1,17 @@
+Package: CONCERT
+Title: What the Package Does (One Line, Title Case)
+Version: 0.1.0
+Authors@R: 
+     c(person("Bao", "Jiayi", email = "baojiayi689@gmail.com", role = c("aut", "cre")))
+Maintainer: Bao Jiayi <baojiayi689@gmail.com>
+Description: This package implements the Variational Spike-and-Slab Transfer Regression method, providing tools for efficient statistical analysis.
+License: MIT + file LICENSE
+Imports: Rcpp (>= 1.0.0), glmnet
+Suggests: testthat
+LinkingTo: Rcpp, RcppArmadillo
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+NeedsCompilation: yes
+Packaged: 2025-01-05 08:30:46 UTC; 32364
+Author: Bao Jiayi [aut, cre]
